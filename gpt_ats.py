@@ -208,7 +208,7 @@ st.markdown("""
     <div class="title-icon">📊</div>
     <div class="title-text">ATS Score Calculator</div>
 </div>
-<p>This application analyzes resumes against job descriptions using AI to generate an ATS compatibility score.
+<p>This application analyzes resumes against job descriptions to generate an ATS compatibility score.
 Enter your resume and a job description to see how well they match.</p>
 """, unsafe_allow_html=True)
 
