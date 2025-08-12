@@ -267,7 +267,7 @@ def calculate_ats_score(resume_data, job_description):
         "analysis": "Brief analysis text here...",
         "matching_skills": ["Skill 1", "Skill 2"],
         "missing_skills": ["Skill 3", "Skill 4" ]
-    }}
+        "Things need to be added on the basis of analysis": "give a summary with all the things that are required to make the resume more alligned with the job description"    }}
     ```
     
     Important: You MUST use EXACTLY these keys in your response. Do not add additional keys or change the key names. 
@@ -533,3 +533,4 @@ with results_container:
 # Run the main application
 if __name__ == "__main__":
     pass  # Streamlit already executes the script from top to bottom
+
